@@ -67,24 +67,41 @@
 <script>
   import vueSlider from 'vue-slider-component'
 
+  const commonOptions = {
+    height: 25,
+    dotWidth: 35,
+    dotHeight: 50,
+    tooltip: 'hover',
+    bgStyle: {
+      'backgroundColor': '#99cc33',
+          'border-radius': '4px'
+    },
+    sliderStyle: {
+      'backgroundColor': '#111',
+          'border-radius': '3px',
+          'box-shadow': '0 0 0 6px #ededed'
+    },
+    tooltipStyle: {
+      'backgroundColor': '#111',
+          'borderColor': '#111'
+    },
+    processStyle: {
+      'backgroundColor': '#99cc33',
+          'border-radius': '4px'
+    }
+  }
   const options = {
     amount: {
-      height: 25,
+      ...commonOptions,
       min: 5000,
       max: 900000,
-      interval: 5000,
-      dotWidth: 35,
-      dotHeight: 50,
-      tooltip: 'hover'
+      interval: 5000
     },
     duration: {
-      height: 25,
+      ...commonOptions,
       min: 6,
       max: 96,
-      interval: 3,
-      dotWidth: 35,
-      dotHeight: 50,
-      tooltip: 'hover'
+      interval: 3
     }
   }
 
@@ -138,32 +155,6 @@
         border: 1px solid $gray-86;
         border-radius: 3px;
       }
-    }
-  }
-</style>
-
-<style lang="scss">
-  .vue-slider-component {
-    .vue-slider-process {
-      background-color: $primary;
-      border-radius: rem(4px);
-    }
-
-    .vue-slider {
-      border-radius: rem(4px);
-    }
-
-    .vue-slider-dot {
-      .vue-slider-dot-handle {
-        border-radius: rem(3px);
-        background-color: $gray-7;
-        box-shadow: 0 0 0 rem(6px) $gray-93;
-      }
-    }
-
-    .vue-slider-tooltip {
-      background-color: $gray-7;
-      border-color: $gray-7;
     }
   }
 </style>
