@@ -24,7 +24,7 @@
 						:to="item.to"
 				>
 					<template #prepend>
-						<NuxtIcon :name="`stores/${item.icon}`" filled class="text-white" />
+						<component :is="item.icon" class="w-[160px] h-[48px]" />
 					</template>
 				</AppLink>
 			</div>
@@ -34,6 +34,7 @@
 
 <script setup lang="ts">
 	import { useI18n } from "vue-i18n"
+
 	const { tm } = useI18n()
 	const info = tm('footer.info')
 </script>

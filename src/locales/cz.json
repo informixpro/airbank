@@ -88,11 +88,11 @@
         "header": "Máte už aplikaci Air Bank v kapesním vydání?",
         "stores": [
           {
-            "icon": "google-play",
+            "icon": "GooglePlay",
             "to": "/"
           },
           {
-            "icon": "app-store",
+            "icon": "AppStore",
             "to": "/"
           }
         ]
