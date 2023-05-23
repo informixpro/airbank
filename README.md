@@ -19,8 +19,8 @@ Live demo: [https://informix.pro/demo/airbank/](http://informix.pro/demo/airbank
 npm install
 
 # Start the development server on http://localhost:3000
-npm dev
+npm run dev
 
 # Build the application for production
-npm generate
+npm run generate
 ```
