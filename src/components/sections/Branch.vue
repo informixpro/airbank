@@ -35,12 +35,12 @@
 					</div>
 				</div>
 			</div>
-			<div class="h-full w-auto lg:w-[50vw] lg:h-auto">
+			<div class="h-full w-auto lg:w-[50vw] lg:max-h-[36rem]">
 				<NuxtImg
 						class="w-full h-full object-cover"
 						:src="`images/office/${branch.image}`"
 						:alt="'illustration'"
-						sizes="sm:100vw xl:960px"
+						sizes="sm:100vw xl:500px"
 						provider="ipx"
 				/>
 			</div>
