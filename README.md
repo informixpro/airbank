@@ -1,16 +1,16 @@
-## Airbank
-> Corporate web example using vue + bootstrap
+# Bank
 
-Live demo: [http://informix.pro/demo/airbank/](http://informix.pro/demo/airbank/)
+Corporate web example
 
-### Use
-* vuejs 2.5
-* vue-cli
-* vue-router
-* vue-googlemaps
-* vue-carousel
-* vue-slider
-* bootstrap 4
+Live demo: [https://informix.pro/demo/airbank/](http://informix.pro/demo/airbank/)
+
+### Features
+
+- [Nuxt 3](https://v3.nuxtjs.org/)
+- [Nuxt Content v2](https://content.nuxtjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Nuxt Icons](https://github.com/gitFoxCode/nuxt-icons/)
+- [Pinia](https://pinia.vuejs.org/)
 
 ### Project setup
 
@@ -18,9 +18,9 @@ Live demo: [http://informix.pro/demo/airbank/](http://informix.pro/demo/airbank/
 # Install dependencies
 npm install
 
-# Compiles and hot-reloads for development
-npm run serve
+# Start the development server on http://localhost:3000
+npm dev
 
-# Compiles and minifies for production
-npm run build
+# Build the application for production
+npm generate
 ```

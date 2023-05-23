@@ -1,0 +1,320 @@
+{
+  "footer": {
+    "navigation": [
+      {
+       "title": "O Air Bank",
+        "to": "/"
+      },
+      {
+       "title": "Kontakt",
+        "to": "/"
+      },
+      {
+       "title": "Pro novináře",
+        "to": "/"
+      },
+      {
+       "title": "Pracujte u nás",
+        "to": "/"
+      },
+      {
+       "title": "Dokumenty",
+        "to": "/"
+      },
+      {
+       "title": "Co vás nejvíc zajímá",
+        "to": "/"
+      },
+      {
+       "title": "Internetové bankovnictvi",
+        "to": "/"
+      },
+      {
+       "title": "Mobilní bankovnictví",
+        "to": "/"
+      },
+      {
+       "title": "Šanon",
+        "to": "/"
+      },
+      {
+       "title": "Pobočky a bankomaty",
+        "to": "/"
+      },
+      {
+       "title": "Ceník ke stažení",
+        "to": "/"
+      },
+      {
+        "title": "Přehled úrokových sazeb",
+        "to": "/"
+      },
+      {
+        "title": "Přehled pojištění",
+        "to": "/"
+      },
+      {
+        "title": "Reklamační řád",
+        "to": "/"
+      },
+      {
+        "title": "Obchodní podmínky",
+        "to": "/"
+      },
+      {
+        "title": "Novinky",
+        "to": "/"
+      },
+      {
+        "title": "Pokračovat v žádosti",
+        "to": "/"
+      },
+      {
+        "title": "Kurzovní lístek",
+        "to": "/"
+      }
+    ],
+    "info": {
+      "left": {
+        "header": "Nechte nám číslo, zavoláme vám zpět",
+        "icon": "phone",
+        "phone": "515 202 202",
+        "call":       {
+          "title": "Zavoláme vám",
+          "to": "/"
+        }
+      },
+      "right": {
+        "header": "Máte už aplikaci Air Bank v kapesním vydání?",
+        "stores": [
+          {
+            "icon": "google-play",
+            "to": "/"
+          },
+          {
+            "icon": "app-store",
+            "to": "/"
+          }
+        ]
+      }
+    },
+    "copy": {
+      "title": "Člen skupiny PPF, IČ 29045371 / Praha 11, Hráského 2231/25, Zapsaná u rejstříkového soudu v Praze — Spisová značka B 16013",
+      "socials": [
+        {
+          "icon": "facebook",
+          "to": "/"
+        },
+        {
+          "icon": "twitter",
+          "to": "/"
+        },
+        {
+          "icon": "linkedin",
+          "to": "/"
+        },
+        {
+          "icon": "youtube",
+          "to": "/"
+        }
+      ]
+    }
+  },
+  "header": {
+    "topNav": [
+      {
+        "title": "Stát se klientem",
+        "to": "/"
+      },
+      {
+        "title": "Internetové bankovnictví",
+        "icon": "lock",
+        "to": "/"
+      }
+    ],
+    "slider": [
+      {
+        "title": "Air Bank se mi líbí, protože si na nic nehraje",
+        "image": "images/carousel/bg2.jpg",
+        "icon": "play",
+        "author": {
+          "name": "Iva Šurkovská",
+          "position": "Usměvavá dispečerka a naše klientka"
+        }
+      },
+      {
+        "title": "Air Bank se mi líbí, protože si na nic nehraje",
+        "image": "images/carousel/bg1.jpg",
+        "icon": "play",
+        "author": {
+          "name": "Iva Šurkovská",
+          "position": "Usměvavá dispečerka a naše klientka"
+        }
+      }
+    ],
+    "navBar": [
+      {
+        "title": "Běžný účet",
+        "to": "/"
+      },
+      {
+        "title": "Půjčka",
+        "to": "/loan"
+      },
+      {
+        "title": "Spořicí účet",
+        "to": "/page"
+      },
+      {
+        "title": "Převod hypotéky",
+        "to": "/page"
+      },
+      {
+        "title": "Pojištění",
+        "to": "/page"
+      },
+      {
+        "title": "",
+        "icon": "search",
+        "to": "/page"
+      }
+    ]
+  },
+  "benefits":  [
+    {
+      "title": "Máme půjčku bez poplatku",
+      "text": "Jako 1. banka"
+    },
+    {
+      "title": "Spoření se vám vyplatí, a to díky",
+      "text": "TOP 3 garanci"
+    },
+    {
+      "title": "Bankomaty budou dostupnější. Stavíme",
+      "text": " až 300 nových"
+    }
+  ],
+  "branch":  {
+    "header": "Nejbližší pobočka",
+    "image": "1.jpg",
+    "address": {
+      "title": "Praha, OC Palladium",
+      "description": "nám. Republiky 1 <br>110 00 Praha 1"
+    },
+    "openHours": {
+      "title": "Pobočka má otevřeno ještě <span class=\"text-primary\">52 minut</span>",
+      "description": "nám. Republiky 1 <br>110 00 Praha 1",
+      "days": [
+        {
+          "title": "Po - So",
+          "value": "9:00 - 21:00"
+        },
+        {
+          "title": "Neděle",
+          "value": "10:00 - 18:00"
+        }
+      ],
+      "features": [
+        {
+          "icon": "bancomat",
+          "text": "Bankomat"
+        },
+        {
+          "icon": "baby",
+          "text": "Dítě"
+        },
+        {
+          "icon": "cafe",
+          "text": "Káva"
+        },
+        {
+          "icon": "hamburger",
+          "text": "Jídlo"
+        },
+        {
+          "icon": "access",
+          "text": "Bezbariérový"
+        }
+      ]
+    }
+  },
+  "cta": [
+    {
+      "icon": "online",
+      "title": "Chci si o půjčku zažádat online",
+      "action": {
+        "title": "Chci půjčku",
+        "to": "/"
+      }
+    },
+    {
+      "icon": "helpdesk",
+      "title": "Zavolejte nám nebo my vám",
+      "action": {
+        "title": "800 30 30 30",
+        "to": "/"
+      }
+    },
+    {
+      "icon": "branch",
+      "title": "Rádi vás uvidíme na naší pobočce",
+      "action": {
+        "title": "Nejbližší pobočka",
+        "to": "/"
+      }
+    }
+  ],
+  "applications": {
+    "title": "K běžnému účtu se hodí",
+    "apps": [
+      {
+        "icon": "comp",
+        "title": "Internetové bankovnictví",
+        "text": "Naše internetové bankovnictví se snadno ovládá a je přehledné."
+      },
+      {
+        "icon": "folders",
+        "title": "Šanon",
+        "text": "Jednodušší platby faktur i život s účtenkami"
+      },
+      {
+        "icon": "iphone",
+        "title": "Mobilní bankovnictví",
+        "text": "Jakmile si aplikaci stáhnete, budete mít naši banku stále na dosah ruky."
+      }
+    ]
+  },
+  "quote": {
+    "image": "user.jpg",
+    "text": "„Používám běžný účet zcela zdarma, z bankomatu nevybírám, tak mi zcela stačí malý tarif. Super je ta stejná úroková sazba jako na spořícím účtě.“",
+    "name": "Eva Polanová",
+    "position": "Administrativní pracovnice"
+  },
+  "faq": {
+    "title": "Nejčastější otázky",
+    "questions": [
+      {
+        "title": "Jaký je rozdíl mezi spořicím a běžným účtem?",
+        "text": "Běžný účet slouží hlavně pro posílání a přijímání peněz, můžete k němu mít vydanou platební kartu, nastavovat zde trvalé příkazy a inkasa. Na spořicím účtu si můžete spořit až do deseti různých obálek, které si sami pojmenujete."
+      },
+      {
+        "title": "Jakou kartu dostanu ke svému účtu?",
+        "text": "K běžnému účtu vydáváme embosované karty MasterCard kontaktní a bezkontaktní. Nový klient má možnost vybrat si bezkontaktní kartu během žádosti při zakládání účtu."
+      },
+      {
+        "title": "Jak získat na běžném i spořicím účtu bonusový úrok?",
+        "text": "Je to jednoduché, stačí vám jenom tři věci. Náš běžný účet, k němu platební karta a pak už jen tou kartou 5× do měsíce zaplatit."
+      }
+    ],
+    "all":       {
+      "title": "Všechny otázky k účtu",
+      "to": "/"
+    }
+  },
+  "loan": {
+    "header": "Půjčková kalkulačka",
+    "amount": "Kolik potřebujete půjčit?",
+    "duration": "Jak dlouho chcete splácet?",
+    "position": "Administrativní pracovnice"
+  }
+}
