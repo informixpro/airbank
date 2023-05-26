@@ -2,6 +2,9 @@ import {defineNuxtConfig} from 'nuxt/config'
 
 export default defineNuxtConfig({
   srcDir: 'src/',
+  app: {
+    baseURL: '/demo/airbank'
+  },
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
